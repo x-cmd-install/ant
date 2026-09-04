@@ -7,7 +7,7 @@ about:
   head: 8c96cd6
   archived: false
   latestVersion: 
-  collectedAt: 2026-09-04T19:58:34Z
+  collectedAt: 2026-09-04T20:40:52Z
 timeline:
   created: 2014-05-28
   lastCommit: 2026-09-03
@@ -88,6 +88,89 @@ total:
   openIssue: 0
   commit: 15172
 ---
+path: /home/runner/.x-repo/github.com/apache/ant
+collectedAt: 2026-09-04T20:40:56Z
+loc:
+  Java:
+    code: 147877
+    comments: 110992
+    blanks: 30202
+    files: 1338
+  Html:
+    code: 49513
+    comments: 3731
+    blanks: 3250
+    files: 232
+  Xml:
+    code: 42205
+    comments: 9441
+    blanks: 4948
+    files: 519
+  XSL:
+    code: 9216
+    comments: 1676
+    blanks: 909
+    files: 39
+  Batch:
+    code: 629
+    comments: 82
+    blanks: 158
+    files: 9
+  Sh:
+    code: 289
+    comments: 196
+    blanks: 57
+    files: 10
+  Css:
+    code: 196
+    comments: 22
+    blanks: 45
+    files: 1
+  Perl:
+    code: 135
+    comments: 137
+    blanks: 35
+    files: 3
+  Python:
+    code: 66
+    comments: 24
+    blanks: 16
+    files: 1
+  JavaScript:
+    code: 65
+    comments: 17
+    blanks: 3
+    files: 1
+  Bitbake:
+    code: 51
+    comments: 0
+    blanks: 8
+    files: 3
+  Yaml:
+    code: 47
+    comments: 14
+    blanks: 4
+    files: 1
+  Autoconf:
+    code: 3
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 56
+    blanks: 15
+    files: 2
+  Text:
+    code: 0
+    comments: 175
+    blanks: 25
+    files: 27
+total:
+  code: 250307
+  comments: 126563
+  blanks: 39675
+  files: 2187
 ---
 date: "2026-08-24"
 repo:
