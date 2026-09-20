@@ -4,7 +4,7 @@
 
 Apache Ant is a Java-based build tool.
 
-![ant](https://repo.x-cmd.io/ant.svg)
+[![x-cmd/install — ant Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ant.svg)](https://x-cmd.com/install/ant)
 
 ## Install
 
@@ -14,13 +14,13 @@ x install ant
 
 ## Code insight
 
-Total: **250,419** lines of code across **2137** files in the top 5 languages.
+Total: **250,420** lines of code across **2137** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | Java | 147,988 | 111,041 | 30,211 | 1338 |
 | Html | 49,529 | 3,731 | 3,250 | 232 |
-| Xml | 42,205 | 9,441 | 4,948 | 519 |
+| Xml | 42,206 | 9,441 | 4,948 | 519 |
 | XSL | 9,216 | 1,676 | 909 | 39 |
 | Batch | 629 | 82 | 158 | 9 |
 
@@ -46,18 +46,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 0 · **Merged PRs**: 80 · **Open PRs**: 20 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 15179
+- **Releases**: 0 · **Merged PRs**: 80 · **Open PRs**: 20 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 15180
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 1 | 3 | 0 | 0 | 13 |
-| last60d | 2026-07-20 | 0 | 1 | 3 | 0 | 0 | 32 |
-| 90d | 2026-06-20 | 0 | 1 | 3 | 0 | 0 | 42 |
-| last180d | 2026-03-22 | 0 | 5 | 3 | 0 | 0 | 87 |
-| 360d | 2025-09-23 | 0 | 5 | 3 | 0 | 0 | 124 |
-| last720d | 2024-09-28 | 0 | 14 | 4 | 0 | 0 | 172 |
+| 30d | 2026-08-21 | 0 | 1 | 3 | 0 | 0 | 4 |
+| last60d | 2026-07-22 | 0 | 1 | 3 | 0 | 0 | 22 |
+| 90d | 2026-06-22 | 0 | 1 | 3 | 0 | 0 | 43 |
+| last180d | 2026-03-24 | 0 | 5 | 3 | 0 | 0 | 84 |
+| 360d | 2025-09-25 | 0 | 5 | 3 | 0 | 0 | 125 |
+| last720d | 2024-09-30 | 0 | 14 | 4 | 0 | 0 | 173 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ant lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:29:46Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:46:22Z._
