@@ -30,8 +30,8 @@ Overall score: **3.9 / 10**
 
 Lowest-scoring checks:
 
-- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
 - **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
@@ -52,12 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-22 | 0 | 1 | 0 | 0 | 0 | 4 |
-| last60d | 2026-07-23 | 0 | 1 | 3 | 0 | 0 | 22 |
-| 90d | 2026-06-23 | 0 | 1 | 3 | 0 | 0 | 43 |
-| last180d | 2026-03-25 | 0 | 5 | 3 | 0 | 0 | 84 |
-| 360d | 2025-09-26 | 0 | 5 | 3 | 0 | 0 | 125 |
-| last720d | 2024-10-01 | 0 | 14 | 4 | 0 | 0 | 173 |
+| 30d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 4 |
+| last60d | 2026-07-24 | 0 | 1 | 3 | 0 | 0 | 22 |
+| 90d | 2026-06-24 | 0 | 1 | 3 | 0 | 0 | 43 |
+| last180d | 2026-03-26 | 0 | 5 | 3 | 0 | 0 | 84 |
+| 360d | 2025-09-27 | 0 | 5 | 3 | 0 | 0 | 125 |
+| last720d | 2024-10-02 | 0 | 14 | 4 | 0 | 0 | 173 |
 
 ## Improve this data
 
@@ -68,4 +68,4 @@ Install metadata for ant lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260921.yml` · 2026-09-21T04:42:47Z._
+_Snapshot: `data/card/260922.yml` · 2026-09-22T04:39:51Z._
