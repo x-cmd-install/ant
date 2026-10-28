@@ -30,8 +30,8 @@ x install ant
 
 评分最低的几项:
 
-- **Packaging** (-1/10) — packaging workflow not detected
 - **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Token-Permissions** (-1/10) — No tokens found
 - **Dangerous-Workflow** (-1/10) — no workflows found
 
 ## 源代码
@@ -42,7 +42,7 @@ x install ant
 
 ## 流行度
 
-- **Star**: 475 · **Fork**: 458 · **开放 issue**: 0 · **贡献者**: 84
+- **Star**: 476 · **Fork**: 460 · **开放 issue**: 0 · **贡献者**: 84
 
 ## 累计统计
 
@@ -52,12 +52,12 @@ x install ant
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 0 | 0 | 0 | 0 | 2 |
-| last60d | 2026-08-28 | 0 | 0 | 0 | 0 | 0 | 7 |
-| 90d | 2026-07-29 | 0 | 1 | 3 | 0 | 0 | 25 |
-| last180d | 2026-04-30 | 0 | 3 | 3 | 0 | 0 | 75 |
-| 360d | 2025-11-01 | 0 | 5 | 3 | 0 | 0 | 128 |
-| last720d | 2024-11-06 | 0 | 13 | 4 | 0 | 0 | 173 |
+| 30d | 2026-09-28 | 0 | 0 | 0 | 0 | 0 | 2 |
+| last60d | 2026-08-29 | 0 | 0 | 0 | 0 | 0 | 7 |
+| 90d | 2026-07-30 | 0 | 1 | 3 | 0 | 0 | 25 |
+| last180d | 2026-05-01 | 0 | 3 | 3 | 0 | 0 | 75 |
+| 360d | 2025-11-02 | 0 | 5 | 3 | 0 | 0 | 128 |
+| last720d | 2024-11-07 | 0 | 12 | 4 | 0 | 0 | 173 |
 
 ## 发行版状态
 
@@ -87,4 +87,4 @@ ant 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261027.yml` · 2026-10-27T04:49:41Z._
+_数据快照: `data/card/261028.yml` · 2026-10-28T05:23:54Z._
