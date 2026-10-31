@@ -1,39 +1,3 @@
-- repo: homebrew
-  srcname: ant
-  visiblename: ant
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Java build tool
-- repo: parabola
-  subrepo: extra
-  srcname: ant
-  binname: ant
-  visiblename: ant
-  version: 1.10.18
-  origversion: 1.10.18-1
-  status: newest
-  summary: Java based build tool
-  licenses:
-    - Apache-2.0
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: ant
-  binnames:
-    - ant
-    - ant-optional
-    - ant-doc
-  visiblename: ant
-  version: 1.10.18
-  origversion: 1.10.18-1
-  status: newest
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - doko@debian.org
-    - ebourg@apache.org
-    - james.page@canonical.com
-  categories:
-    - java
 - repo: aerynos
   srcname: ant
   visiblename: ant
@@ -115,6 +79,24 @@
     - thrymgjol@aur
   licenses:
     - Apache
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: ant
+  binnames:
+    - ant
+    - ant-optional
+    - ant-doc
+  visiblename: ant
+  version: 1.10.18
+  origversion: 1.10.18-1
+  status: newest
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - doko@debian.org
+    - ebourg@apache.org
+    - james.page@canonical.com
+  categories:
+    - java
 - repo: chocolatey
   binname: ant
   visiblename: Apache Ant
@@ -197,13 +179,6 @@
     - fallback-mnt-exherbo@repology
   categories:
     - dev-java
-- repo: homebrew
-  srcname: ant
-  visiblename: ant
-  version: 1.10.18
-  origversion: null
-  status: newest
-  summary: Java build tool
 - repo: gentoo
   srcname: dev-java/ant
   visiblename: dev-java/ant
@@ -217,6 +192,20 @@
     - Apache-2.0
   categories:
     - dev-java
+- repo: homebrew
+  srcname: ant
+  visiblename: ant
+  version: 1.10.18
+  origversion: null
+  status: newest
+  summary: Java build tool
+- repo: homebrew
+  srcname: ant
+  visiblename: ant
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Java build tool
 - repo: kali_rolling
   subrepo: main
   srcname: ant
@@ -313,6 +302,17 @@
     - sean@msgilligan.com
   licenses:
     - Apache-2.0
+- repo: parabola
+  subrepo: extra
+  srcname: ant
+  binname: ant-doc
+  visiblename: ant-doc
+  version: 1.10.18
+  origversion: 1.10.18-1
+  status: newest
+  summary: Apache Ant build tool documentation
+  licenses:
+    - Apache-2.0
 - repo: openbsd
   srcname: devel/apache-ant
   binname: apache-ant
@@ -355,12 +355,12 @@
 - repo: parabola
   subrepo: extra
   srcname: ant
-  binname: ant-doc
-  visiblename: ant-doc
+  binname: ant
+  visiblename: ant
   version: 1.10.18
   origversion: 1.10.18-1
   status: newest
-  summary: Apache Ant build tool documentation
+  summary: Java based build tool
   licenses:
     - Apache-2.0
 - repo: opensuse_tumbleweed
@@ -504,6 +504,16 @@
   status: newest
   licenses:
     - Apache-2.0
+- repo: slackbuilds
+  srcname: development/apache-ant
+  visiblename: development/apache-ant
+  version: 1.10.18
+  origversion: null
+  status: newest
+  maintainers:
+    - yousha.a@hotmail.com
+  categories:
+    - development
 - repo: solus
   srcname: apache-ant
   binname: apache-ant
@@ -559,13 +569,36 @@
     - james.page@canonical.com
   categories:
     - universe/java
-- repo: amazon_2
+- repo: wikidata
+  srcname: Q385970
+  visiblename: Apache Ant
+  version: 1.10.18
+  origversion: null
+  status: newest
+  summary: software tool for automating software build processes
+  licenses:
+    - Apache Software License 2.0
+- repo: eurolinux_8
+  subrepo: appstream
   srcname: ant
   visiblename: ant
-  version: 1.9.2
-  origversion: 1.9.2-9.amzn2.0.1
+  version: 1.10.5
+  origversion: 1.10.5-1.module+el8+2438+c99a8a1e
   status: legacy
-  summary: Build tool for java
+  summary: Java build tool
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: ant
+  visiblename: ant
+  version: 1.10.9
+  origversion: 1.10.9-1.module+el8.10.0+21307+8cf76afe
+  status: outdated
+  summary: Java build tool
   licenses:
     - ASL 2.0
   categories:
@@ -584,42 +617,50 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: ibmi
+- repo: npackd_stable
+  srcname: org.apache.Ant
+  binname: org.apache.Ant
+  visiblename: Ant
+  version: 1.8.2
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: nix_stable_24_11
   srcname: ant
   visiblename: ant
-  version: 1.10.10
-  origversion: 1.10.10-1
+  version: 1.10.15
+  origversion: null
   status: outdated
-  summary: Apache Ant
+  summary: Java-based build tool
+  maintainers:
+    - chayleaf-nix@pavluk.org
+    - arne.keller@posteo.de
+    - infinidoge@inx.moe
+    - tomodachi94@protonmail.com
   licenses:
     - Apache-2.0
-  categories:
-    - Unspecified
   vulnerable: true
-- repo: pardus_21
+- repo: chimera
   subrepo: main
-  srcname: ant
-  binnames:
-    - ant
-    - ant-optional
-    - ant-doc
-  visiblename: ant
-  version: 1.10.9
-  origversion: 1.10.9-4
+  srcname: apache-ant
+  binname: apache-ant
+  visiblename: apache-ant
+  version: 1.10.15
+  origversion: 1.10.15-r1
   status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - doko@debian.org
-    - ebourg@apache.org
-    - james.page@canonical.com
-  categories:
-    - java
+  summary: Java build system
+  licenses:
+    - Apache-2.0
   vulnerable: true
 - repo: npackd_stable
   srcname: org.apache.Ant
   binname: org.apache.Ant
   visiblename: Ant
-  version: 1.10.6
+  version: 1.10.7
   origversion: null
   status: legacy
   licenses:
@@ -631,7 +672,7 @@
   srcname: org.apache.Ant
   binname: org.apache.Ant
   visiblename: Ant
-  version: 1.10.7
+  version: 1.9.4
   origversion: null
   status: legacy
   licenses:
@@ -651,90 +692,16 @@
   categories:
     - Development
   vulnerable: true
-- repo: amazon_2
-  srcname: ant
-  visiblename: ant
-  version: 1.9.16
-  origversion: 1.9.16-1.amzn2.0.1
-  status: outdated
-  summary: Build tool for java
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: amazon_2
-  srcname: ant
-  visiblename: ant
-  version: 1.9.16
-  origversion: 1.9.16-1.amzn2.0.2
-  status: outdated
-  summary: Build tool for java
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: ant
-  visiblename: ant
-  version: 1.10.9
-  origversion: 1.10.9-1.module+el8.10.0+21307+8cf76afe
-  status: outdated
-  summary: Java build tool
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: chimera
-  subrepo: main
-  srcname: apache-ant
-  binname: apache-ant
-  visiblename: apache-ant
-  version: 1.10.15
-  origversion: 1.10.15-r1
-  status: outdated
-  summary: Java build system
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: aosc
-  srcname: lang-java/apache-ant
-  binname: apache-ant
-  visiblename: apache-ant
-  version: 1.10.15
-  origversion: null
-  status: outdated
-  summary: A java-based build tool
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - java
-  vulnerable: true
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: ant
-  binname: ant
-  visiblename: ant
-  version: 1.10.17
-  origversion: 1.10.17-1
-  status: outdated
-  summary: Java based build tool
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: deepin_25
-  subrepo: main
+- repo: debian_12
+  subrepo: bookworm/main
   srcname: ant
   binnames:
     - ant
     - ant-optional
     - ant-doc
   visiblename: ant
-  version: 1.10.11
-  origversion: 1.10.11-1
+  version: 1.10.13
+  origversion: 1.10.13-1
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
@@ -744,8 +711,8 @@
   categories:
     - java
   vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: apertis_v2023
+  subrepo: v2023/sdk
   srcname: ant
   binnames:
     - ant
@@ -753,15 +720,13 @@
     - ant-doc
   visiblename: ant
   version: 1.10.9
-  origversion: 1.10.9-4
+  origversion: 1.10.9-4+apertis1
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - doko@debian.org
     - ebourg@apache.org
     - james.page@canonical.com
-  categories:
-    - java
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -934,6 +899,37 @@
   licenses:
     - Apache-2.0
   vulnerable: true
+- repo: debian_12_backports
+  subrepo: bookworm-backports/main
+  srcname: ant
+  binnames:
+    - ant
+    - ant-optional
+    - ant-doc
+  visiblename: ant
+  version: 1.10.15
+  origversion: 1.10.15-1~bpo12+1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - doko@debian.org
+    - ebourg@apache.org
+    - james.page@canonical.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.Ant
+  binname: org.apache.Ant
+  visiblename: Ant
+  version: 1.8.3
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
 - repo: alt_p11
   srcname: ant
   binnames:
@@ -1068,22 +1064,66 @@
   categories:
     - Development/Tools
   vulnerable: true
-- repo: apertis_v2023
-  subrepo: v2023/sdk
+- repo: amazon_2
   srcname: ant
-  binnames:
-    - ant
-    - ant-optional
-    - ant-doc
   visiblename: ant
-  version: 1.10.9
-  origversion: 1.10.9-4+apertis1
+  version: 1.9.16
+  origversion: 1.9.16-1.amzn2.0.1
   status: outdated
+  summary: Build tool for java
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: ant
+  visiblename: ant
+  version: 1.9.16
+  origversion: 1.9.16-1.amzn2.0.2
+  status: outdated
+  summary: Build tool for java
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: amazon_2
+  srcname: ant
+  visiblename: ant
+  version: 1.9.2
+  origversion: 1.9.2-9.amzn2.0.1
+  status: legacy
+  summary: Build tool for java
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: aosc
+  srcname: lang-java/apache-ant
+  binname: apache-ant
+  visiblename: apache-ant
+  version: 1.10.15
+  origversion: null
+  status: outdated
+  summary: A java-based build tool
   maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - doko@debian.org
-    - ebourg@apache.org
-    - james.page@canonical.com
+    - fallback-mnt-aosc@repology
+  categories:
+    - java
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.Ant
+  binname: org.apache.Ant
+  visiblename: Ant
+  version: 1.10.9
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
   vulnerable: true
 - repo: apertis_v2024
   subrepo: v2024/development
@@ -1286,6 +1326,18 @@
     - ASL 2.0
   categories:
     - Unspecified
+  vulnerable: true
+- repo: npackd_stable
+  srcname: org.apache.Ant
+  binname: org.apache.Ant
+  visiblename: Ant
+  version: 1.8.4
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
   vulnerable: true
 - repo: centos_stream_9
   subrepo: AppStream
@@ -1569,19 +1621,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: ant
-  visiblename: ant
-  version: 1.10.5
-  origversion: 1.10.5-1.module+el8+2438+c99a8a1e
-  status: legacy
-  summary: Java build tool
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: chimera
   subrepo: main
   srcname: apache-ant
@@ -1613,67 +1652,17 @@
   categories:
     - java
   vulnerable: true
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: ant
-  binnames:
-    - ant
-    - ant-optional
-    - ant-doc
-  visiblename: ant
-  version: 1.10.13
-  origversion: 1.10.13-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - doko@debian.org
-    - ebourg@apache.org
-    - james.page@canonical.com
-  categories:
-    - java
-  vulnerable: true
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ant
-  binname: ant
-  visiblename: ant
-  version: 1.10.17
-  origversion: 1.10.17-1
-  status: outdated
-  summary: Java based build tool
+- repo: npackd_stable
+  srcname: org.apache.Ant
+  binname: org.apache.Ant
+  visiblename: Ant
+  version: 1.9.2
+  origversion: null
+  status: legacy
   licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ant
-  binname: ant-doc
-  visiblename: ant-doc
-  version: 1.10.17
-  origversion: 1.10.17-1
-  status: outdated
-  summary: Apache Ant build tool documentation
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: debian_12_backports
-  subrepo: bookworm-backports/main
-  srcname: ant
-  binnames:
-    - ant
-    - ant-optional
-    - ant-doc
-  visiblename: ant
-  version: 1.10.15
-  origversion: 1.10.15-1~bpo12+1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - doko@debian.org
-    - ebourg@apache.org
-    - james.page@canonical.com
+    - Apache License 2.0
   categories:
-    - misc
+    - Development
   vulnerable: true
 - repo: debian_13
   subrepo: trixie/main
@@ -1721,6 +1710,44 @@
   visiblename: ant
   version: 1.10.11
   origversion: 1.10.11-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - doko@debian.org
+    - ebourg@apache.org
+    - james.page@canonical.com
+  categories:
+    - java
+  vulnerable: true
+- repo: deepin_25
+  subrepo: main
+  srcname: ant
+  binnames:
+    - ant
+    - ant-optional
+    - ant-doc
+  visiblename: ant
+  version: 1.10.11
+  origversion: 1.10.11-1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - doko@debian.org
+    - ebourg@apache.org
+    - james.page@canonical.com
+  categories:
+    - java
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: ant
+  binnames:
+    - ant
+    - ant-optional
+    - ant-doc
+  visiblename: ant
+  version: 1.10.9
+  origversion: 1.10.9-4
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
@@ -1853,15 +1880,6 @@
     - ASL 2.0
   categories:
     - Unspecified
-  vulnerable: true
-- repo: haikuports_master
-  srcname: dev-java/ant_core
-  visiblename: dev-java/ant_core
-  version: 1.10.13
-  origversion: null
-  status: outdated
-  categories:
-    - dev-java
   vulnerable: true
 - repo: fedora_40
   subrepo: release
@@ -2046,18 +2064,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: nix_stable_24_05
-  srcname: ant
-  visiblename: ant
-  version: 1.10.15
-  origversion: null
-  status: outdated
-  summary: A Java-based build tool
-  maintainers:
-    - edolstra+nixpkgs@gmail.com
-  licenses:
-    - Apache-2.0
-  vulnerable: true
 - repo: fedora_rawhide
   subrepo: development
   srcname: ant
@@ -2185,6 +2191,27 @@
   licenses:
     - Other License(s), see package
   vulnerable: true
+- repo: haikuports_master
+  srcname: dev-java/ant_core
+  visiblename: dev-java/ant_core
+  version: 1.10.13
+  origversion: null
+  status: outdated
+  categories:
+    - dev-java
+  vulnerable: true
+- repo: ibmi
+  srcname: ant
+  visiblename: ant
+  version: 1.10.10
+  origversion: 1.10.10-1
+  status: outdated
+  summary: Apache Ant
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: liguros_stable
   srcname: dev-java/ant
   visiblename: dev-java/ant
@@ -2199,7 +2226,19 @@
   categories:
     - dev-java
   vulnerable: true
-- repo: nix_stable_24_11
+- repo: npackd_stable
+  srcname: org.apache.Ant
+  binname: org.apache.Ant
+  visiblename: Ant
+  version: 1.9.3
+  origversion: null
+  status: legacy
+  licenses:
+    - Apache License 2.0
+  categories:
+    - Development
+  vulnerable: true
+- repo: nix_stable_25_05
   srcname: ant
   visiblename: ant
   version: 1.10.15
@@ -2207,10 +2246,11 @@
   status: outdated
   summary: Java-based build tool
   maintainers:
-    - chayleaf-nix@pavluk.org
     - arne.keller@posteo.de
     - infinidoge@inx.moe
+    - chayleaf-nix@pavluk.org
     - tomodachi94@protonmail.com
+    - sean@msgilligan.com
   licenses:
     - Apache-2.0
   vulnerable: true
@@ -2381,19 +2421,51 @@
   licenses:
     - Apache-2.0
   vulnerable: true
-- repo: nix_stable_25_05
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: ant
+  binname: ant
+  visiblename: ant
+  version: 1.10.17
+  origversion: 1.10.17-1
+  status: outdated
+  summary: Java based build tool
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ant
+  binname: ant
+  visiblename: ant
+  version: 1.10.17
+  origversion: 1.10.17-1
+  status: outdated
+  summary: Java based build tool
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ant
+  binname: ant-doc
+  visiblename: ant-doc
+  version: 1.10.17
+  origversion: 1.10.17-1
+  status: outdated
+  summary: Apache Ant build tool documentation
+  licenses:
+    - Apache-2.0
+  vulnerable: true
+- repo: nix_stable_24_05
   srcname: ant
   visiblename: ant
   version: 1.10.15
   origversion: null
   status: outdated
-  summary: Java-based build tool
+  summary: A Java-based build tool
   maintainers:
-    - arne.keller@posteo.de
-    - infinidoge@inx.moe
-    - chayleaf-nix@pavluk.org
-    - tomodachi94@protonmail.com
-    - sean@msgilligan.com
+    - edolstra+nixpkgs@gmail.com
   licenses:
     - Apache-2.0
   vulnerable: true
@@ -2417,42 +2489,6 @@
   srcname: org.apache.Ant
   binname: org.apache.Ant
   visiblename: Ant
-  version: 1.8.2
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.Ant
-  binname: org.apache.Ant
-  visiblename: Ant
-  version: 1.8.3
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.Ant
-  binname: org.apache.Ant
-  visiblename: Ant
-  version: 1.8.4
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.Ant
-  binname: org.apache.Ant
-  visiblename: Ant
   version: "1.9"
   origversion: null
   status: legacy
@@ -2466,42 +2502,6 @@
   binname: org.apache.Ant
   visiblename: Ant
   version: 1.9.1
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.Ant
-  binname: org.apache.Ant
-  visiblename: Ant
-  version: 1.9.2
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.Ant
-  binname: org.apache.Ant
-  visiblename: Ant
-  version: 1.9.3
-  origversion: null
-  status: legacy
-  licenses:
-    - Apache License 2.0
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: org.apache.Ant
-  binname: org.apache.Ant
-  visiblename: Ant
-  version: 1.9.4
   origversion: null
   status: legacy
   licenses:
@@ -2597,7 +2597,7 @@
   srcname: org.apache.Ant
   binname: org.apache.Ant
   visiblename: Ant
-  version: 1.10.9
+  version: 1.10.6
   origversion: null
   status: legacy
   licenses:
@@ -2833,21 +2833,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: openmandriva_rolling
-  subrepo: main/release
-  srcname: ant
-  visiblename: ant
-  version: 1.10.5
-  origversion: 1.10.5-5
-  status: legacy
-  summary: Build tool for java
-  maintainers:
-    - nobodydead@gmail.com
-  licenses:
-    - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: openeuler_24_03_lts_sp1
   srcname: ant
   binnames:
@@ -2883,6 +2868,19 @@
     - ASL 2.0
   categories:
     - Unspecified
+  vulnerable: true
+- repo: opensuse_leap_15_5
+  subrepo: updates/sle
+  srcname: ant
+  visiblename: ant
+  version: 1.10.14
+  origversion: 1.10.14-150200.4.22.1
+  status: outdated
+  summary: Java-based build tool
+  licenses:
+    - Apache-2.0
+  categories:
+    - Development/Tools/Building
   vulnerable: true
 - repo: openeuler_24_09
   srcname: ant
@@ -3108,6 +3106,21 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: ant
+  visiblename: ant
+  version: 1.10.5
+  origversion: 1.10.5-5
+  status: legacy
+  summary: Build tool for java
+  maintainers:
+    - nobodydead@gmail.com
+  licenses:
+    - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: ant
@@ -3212,19 +3225,6 @@
   visiblename: ant
   version: 1.10.14
   origversion: 1.10.14-150200.4.18.2
-  status: outdated
-  summary: Java-based build tool
-  licenses:
-    - Apache-2.0
-  categories:
-    - Development/Tools/Building
-  vulnerable: true
-- repo: opensuse_leap_15_5
-  subrepo: updates/sle
-  srcname: ant
-  visiblename: ant
-  version: 1.10.14
-  origversion: 1.10.14-150200.4.22.1
   status: outdated
   summary: Java-based build tool
   licenses:
@@ -3492,6 +3492,25 @@
   categories:
     - Development/Tools/Building
   vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: ant
+  binnames:
+    - ant
+    - ant-optional
+    - ant-doc
+  visiblename: ant
+  version: 1.10.9
+  origversion: 1.10.9-4
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - doko@debian.org
+    - ebourg@apache.org
+    - james.page@canonical.com
+  categories:
+    - java
+  vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: main/oss
   srcname: ant-junit
@@ -3543,6 +3562,13 @@
     - Apache-2.0
   categories:
     - Development/Tools/Building
+  vulnerable: true
+- repo: pld
+  srcname: ant
+  visiblename: ant
+  version: 1.10.17
+  origversion: 1.10.17-1
+  status: outdated
   vulnerable: true
 - repo: opensuse_leap_15_6
   subrepo: updates/sle
@@ -3623,7 +3649,7 @@
     - Development/Tools/Building
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: ant
   binnames:
     - ant
@@ -3642,7 +3668,7 @@
     - java
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: ant
   binnames:
     - ant
@@ -3772,13 +3798,6 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
-  vulnerable: true
-- repo: pld
-  srcname: ant
-  visiblename: ant
-  version: 1.10.17
-  origversion: 1.10.17-1
-  status: outdated
   vulnerable: true
 - repo: pureos_amber
   subrepo: amber/main
@@ -3920,6 +3939,20 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: apache-ant
+  binname: apache-ant
+  visiblename: apache-ant
+  version: 1.10.13
+  origversion: 1.10.13_2
+  status: outdated
+  summary: Java library and command-line tool that help building software
+  maintainers:
+    - gottox@voidlinux.org
+  licenses:
+    - Apache-2.0
+  vulnerable: true
 - repo: rocky_9
   subrepo: AppStream
   srcname: ant
@@ -4053,17 +4086,6 @@
   licenses:
     - Apache 2.0
   vulnerable: true
-- repo: slackbuilds
-  srcname: development/apache-ant
-  visiblename: development/apache-ant
-  version: 1.10.15
-  origversion: null
-  status: outdated
-  maintainers:
-    - yousha.a@hotmail.com
-  categories:
-    - development
-  vulnerable: true
 - repo: spack
   srcname: ant
   visiblename: ant
@@ -4074,29 +4096,6 @@
     - fallback-mnt-spack@repology
   licenses:
     - Apache-2.0
-  vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty/main
-  srcname: ant
-  binnames:
-    - ant
-    - ant-gcj
-    - ant-optional
-    - ant-optional-gcj
-    - ant-doc
-  visiblename: ant
-  version: 1.9.3
-  origversion: 1.9.3-2build1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - doko@debian.org
-    - ebourg@apache.org
-    - james.page@canonical.com
-    - ludovic.claude@laposte.net
-    - twerner@debian.org
-  categories:
-    - java
   vulnerable: true
 - repo: ubuntu_14_04
   subrepo: trusty-updates/main
@@ -4113,6 +4112,29 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - doko@debian.org
+    - ebourg@apache.org
+    - james.page@canonical.com
+    - ludovic.claude@laposte.net
+    - twerner@debian.org
+  categories:
+    - java
+  vulnerable: true
+- repo: ubuntu_14_04
+  subrepo: trusty/main
+  srcname: ant
+  binnames:
+    - ant
+    - ant-gcj
+    - ant-optional
+    - ant-optional-gcj
+    - ant-doc
+  visiblename: ant
+  version: 1.9.3
+  origversion: 1.9.3-2build1
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
     - doko@debian.org
     - ebourg@apache.org
     - james.page@canonical.com
@@ -4322,20 +4344,6 @@
 - repo: void_x86_64
   subrepo: x86_64
   srcname: apache-ant
-  binname: apache-ant
-  visiblename: apache-ant
-  version: 1.10.13
-  origversion: 1.10.13_2
-  status: outdated
-  summary: Java library and command-line tool that help building software
-  maintainers:
-    - gottox@voidlinux.org
-  licenses:
-    - Apache-2.0
-  vulnerable: true
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: apache-ant
   binname: apache-ant-doc
   visiblename: apache-ant-doc
   version: 1.10.13
@@ -4346,14 +4354,4 @@
     - gottox@voidlinux.org
   licenses:
     - Apache-2.0
-  vulnerable: true
-- repo: wikidata
-  srcname: Q385970
-  visiblename: Apache Ant
-  version: 1.10.17
-  origversion: null
-  status: outdated
-  summary: software tool for automating software build processes
-  licenses:
-    - Apache Software License 2.0
   vulnerable: true
