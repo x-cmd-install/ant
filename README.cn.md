@@ -30,9 +30,9 @@ x install ant
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
 - **Token-Permissions** (-1/10) — No tokens found
 - **Dangerous-Workflow** (-1/10) — no workflows found
+- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -52,12 +52,12 @@ x install ant
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 2 | 0 | 0 | 0 |
-| last60d | 2026-09-05 | 0 | 0 | 2 | 0 | 0 | 4 |
-| 90d | 2026-08-06 | 0 | 1 | 5 | 0 | 0 | 22 |
-| last180d | 2026-05-08 | 0 | 3 | 5 | 0 | 0 | 75 |
-| 360d | 2025-11-09 | 0 | 5 | 5 | 0 | 0 | 128 |
-| last720d | 2024-11-14 | 0 | 12 | 6 | 0 | 0 | 171 |
+| 30d | 2026-10-06 | 0 | 0 | 2 | 0 | 0 | 0 |
+| last60d | 2026-09-06 | 0 | 0 | 2 | 0 | 0 | 4 |
+| 90d | 2026-08-07 | 0 | 1 | 5 | 0 | 0 | 22 |
+| last180d | 2026-05-09 | 0 | 3 | 5 | 0 | 0 | 75 |
+| 360d | 2025-11-10 | 0 | 5 | 5 | 0 | 0 | 128 |
+| last720d | 2024-11-15 | 0 | 12 | 6 | 0 | 0 | 171 |
 
 ## 发行版状态
 
@@ -87,4 +87,4 @@ ant 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261104.yml` · 2026-11-04T06:00:19Z._
+_数据快照: `data/card/261105.yml` · 2026-11-05T06:26:29Z._
