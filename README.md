@@ -30,9 +30,9 @@ Overall score: **3.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
-- **Dangerous-Workflow** (-1/10) — no workflows found
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Token-Permissions** (-1/10) — No tokens found
 
 ## Source
 
@@ -52,16 +52,16 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 0 | 1 | 0 | 0 | 1 |
-| last60d | 2026-09-18 | 0 | 0 | 1 | 0 | 0 | 4 |
-| 90d | 2026-08-19 | 0 | 1 | 4 | 0 | 0 | 10 |
-| last180d | 2026-05-21 | 0 | 2 | 4 | 0 | 0 | 60 |
-| 360d | 2025-11-22 | 0 | 5 | 4 | 0 | 0 | 129 |
-| last720d | 2024-11-27 | 0 | 12 | 5 | 0 | 0 | 172 |
+| 30d | 2026-10-20 | 0 | 0 | 1 | 0 | 0 | 1 |
+| last60d | 2026-09-20 | 0 | 0 | 1 | 0 | 0 | 4 |
+| 90d | 2026-08-21 | 0 | 1 | 4 | 0 | 0 | 10 |
+| last180d | 2026-05-23 | 0 | 2 | 4 | 0 | 0 | 60 |
+| 360d | 2025-11-24 | 0 | 5 | 4 | 0 | 0 | 129 |
+| last720d | 2024-11-29 | 0 | 12 | 5 | 0 | 0 | 172 |
 
 ## Distribution status
 
-Reported by **256** distros on [repology.org](https://repology.org/project/ant). **48** are ✅ on the latest upstream release, **144** are ⚠️ on an older version.
+Reported by **255** distros on [repology.org](https://repology.org/project/ant). **48** are ✅ on the latest upstream release, **143** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -87,4 +87,4 @@ Install metadata for ant lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T07:43:41Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T07:09:21Z._
