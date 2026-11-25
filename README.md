@@ -52,31 +52,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 0 | 1 | 0 | 0 | 1 |
-| last60d | 2026-09-25 | 0 | 0 | 1 | 0 | 0 | 3 |
-| 90d | 2026-08-26 | 0 | 0 | 1 | 0 | 0 | 8 |
-| last180d | 2026-05-28 | 0 | 1 | 4 | 0 | 0 | 56 |
-| 360d | 2025-11-29 | 0 | 5 | 4 | 0 | 0 | 128 |
-| last720d | 2024-12-04 | 0 | 12 | 5 | 0 | 0 | 172 |
-
-## Distribution status
-
-Reported by **254** distros on [repology.org](https://repology.org/project/ant). **50** are ✅ on the latest upstream release, **140** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.10.18` | ✅ latest |
-| Debian 14 | `1.10.18` | ✅ latest |
-| Debian 13 | `1.10.15` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.10.15` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.10.14` | ⚠️ outdated |
-| Arch | `1.10.18` | ✅ latest |
-| Homebrew | `1.10.18` | ✅ latest |
-| Fedora rawhide | `1.10.15` | ⚠️ outdated |
-| Nix unstable | `1.10.18` | ✅ latest |
-| Void | `1.10.13` | ⚠️ outdated |
-| Alpine edge | `1.10.18` | ✅ latest |
-| openSUSE Tumbleweed | `1.10.18` | ✅ latest |
+| 30d | 2026-10-26 | 0 | 0 | 1 | 0 | 0 | 1 |
+| last60d | 2026-09-26 | 0 | 0 | 1 | 0 | 0 | 3 |
+| 90d | 2026-08-27 | 0 | 0 | 1 | 0 | 0 | 8 |
+| last180d | 2026-05-29 | 0 | 1 | 4 | 0 | 0 | 56 |
+| 360d | 2025-11-30 | 0 | 5 | 4 | 0 | 0 | 128 |
+| last720d | 2024-12-05 | 0 | 12 | 5 | 0 | 0 | 172 |
 
 ## Improve this data
 
@@ -87,4 +68,4 @@ Install metadata for ant lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T09:42:44Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:14:47Z._
